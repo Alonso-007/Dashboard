@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrar</title>
+    <link rel="stylesheet" type="text/css" href="bibliotecas/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="bibliotecas/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/sb-admin.min.css" />
+</head>
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="card card-register mx-auto mt-5">
+            <div class="card-header">
+                Criar uma conta
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="primeiroNome">Primeiro nome</label>
+                                <input type="text" name="primeiroNome" id="primeiroNome" class="form-control" placeholder="Digite seu Primeiro Nome" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="Sobrenome">Sobrenome</label>
+                                <input type="text" name="Sobrenome" id="Sobrenome" class="form-control" placeholder="Digite seu Sobrenome" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" id="Email" class="form-control" placeholder="Digite seu Email" />
+                    </div>
+                    <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <label for="senha">Senha</label>
+                                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite uma senha" />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="confirmaSenha">Confirmar Senha</label>
+                                    <input type="text" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme seu Senha" />
+                                </div>
+                            </div>
+                        </div>
+                    <button class="btn btn-primary btn-block">Registrar-se</button>
+                    <div class="text-center">
+                        <a href="#" class="d-block small mt-3">Esqueceu a senha ?</a>
+                        <a href="#" class="d-block small">Página de Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+    
+
+    <script src="bibliotecas/jquery/jquery.min.js"></script>
+    <script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+</body>
+</html>
